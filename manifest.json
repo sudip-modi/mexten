@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "mexten",
+    "description": "launch mexten extension fro your web developer needs",
+    "version": "1.0.0",
+    "icons": {"128": "icon_19.png"},
+    "browser_action": {
+        "default_icon": "icon_19.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+
+}
